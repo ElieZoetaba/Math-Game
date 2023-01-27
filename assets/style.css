@@ -28,3 +28,17 @@
     font-weight: 500;
     line-height: 1.8em;
   }
+
+  .container #submit-btn {
+    font-size: 1.2em;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    background-color: #f4c531;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #23234c;
+    padding: 0.6em 2em;
+  }
