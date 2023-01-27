@@ -6,3 +6,4 @@ const result = document.getElementById("result");
 const submitBtn = document.getElementById("submit-btn");
 const errorMessage = document.getElementById("error-msg");
 let answerValue;
+let operatorQuestion;
