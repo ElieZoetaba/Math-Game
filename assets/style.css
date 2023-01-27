@@ -116,3 +116,9 @@
     padding: 0.8em 1.8em;
     border-radius: 0.3em;
   }
+
+  #result {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #23234c;
+  }
