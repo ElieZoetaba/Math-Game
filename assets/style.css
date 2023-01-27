@@ -64,3 +64,16 @@
     padding: 1em 0;
   }
 
+  .container input {
+    font-size: 1em;
+    font-weight: 600;
+    width: 2.35em;
+    color: #23234c;
+    text-align: center;
+    padding: 0 0.2em;
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.12em solid #23234c;
+    margin: 0 0.25em;
+  }
+
