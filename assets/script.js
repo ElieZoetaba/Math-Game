@@ -21,4 +21,7 @@ const questionGenerator = () => {
   if (randomOperator == "-" && num2 > num1) {
     [num1, num2] = [num2, num1];
   }
+
+  //Solve equation
+  let solution = eval(`${num1}${randomOperator}${num2}`);
 };
