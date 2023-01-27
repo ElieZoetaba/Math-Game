@@ -126,3 +126,7 @@
   #result span {
     font-weight: 600;
   }
+
+  .hide {
+    display: none;
+  }
