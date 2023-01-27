@@ -32,5 +32,15 @@ const questionGenerator = () => {
   if (randomVar == 1) {
     answerValue = num1;
     question.innerHTML = `<input type="number" id="inputValue" placeholder="?"\> ${randomOperator} ${num2} = ${solution}`;
+  } else if (randomVar == 2) {
+    answerValue = num2;
+    question.innerHTML = `${num1} ${randomOperator}<input type="number" id="inputValue" placeholder="?"\> = ${solution}`;
+  } else if (randomVar == 3) {
+    answerValue = randomOperator;
+    operatorQuestion = true;
+    question.innerHTML = `${num1} <input type="text" id="inputValue" placeholder="?"\> ${num2} = ${solution}`;
+  } else {
+    answerValue = solution;
+    question.innerHTML = `${num1} ${randomOperator} ${num2} = <input type="number" id="inputValue" placeholder="?"\>`;
   }
 };
