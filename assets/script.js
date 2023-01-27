@@ -28,4 +28,9 @@ const questionGenerator = () => {
   //For placing the input at random position
   //(1 for num1, 2 for num2, 3 for operator, anything else(4) for solution)
   let randomVar = randomValue(1, 5);
+
+  if (randomVar == 1) {
+    answerValue = num1;
+    question.innerHTML = `<input type="number" id="inputValue" placeholder="?"\> ${randomOperator} ${num2} = ${solution}`;
+  }
 };
