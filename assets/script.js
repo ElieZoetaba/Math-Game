@@ -17,4 +17,8 @@ const questionGenerator = () => {
 
   //For getting random operator
   let randomOperator = operators[Math.floor(Math.random() * operators.length)];
+
+  if (randomOperator == "-" && num2 > num1) {
+    [num1, num2] = [num2, num1];
+  }
 };
