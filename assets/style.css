@@ -92,3 +92,15 @@
   -webkit-appearance: none;
   margin: 0;
 }
+
+.controls-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f4c531;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
