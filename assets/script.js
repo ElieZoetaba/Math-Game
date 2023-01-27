@@ -48,5 +48,12 @@ const questionGenerator = () => {
   submitBtn.addEventListener("click", () => {
     errorMessage.classList.add("hide");
     let userInput = document.getElementById("inputValue").value;
+    //If user input is not empty
+    if (userInput) {}
+    //If user input is empty
+    else {
+      errorMessage.classList.remove("hide");
+      errorMessage.innerHTML = "Input Cannot Be Empty";
+    }
   });
 };
