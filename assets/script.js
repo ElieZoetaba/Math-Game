@@ -70,3 +70,15 @@ const questionGenerator = () => {
     }
   });
 };
+
+//Start Game
+startBtn.addEventListener("click", () => {
+    operatorQuestion = false;
+    answerValue = "";
+    errorMessage.innerHTML = "";
+    errorMessage.classList.add("hide");
+    //Controls and buttons visibility
+    controls.classList.add("hide");
+    startBtn.classList.add("hide");
+    questionGenerator();
+  });
