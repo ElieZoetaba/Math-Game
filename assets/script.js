@@ -43,4 +43,10 @@ const questionGenerator = () => {
     answerValue = solution;
     question.innerHTML = `${num1} ${randomOperator} ${num2} = <input type="number" id="inputValue" placeholder="?"\>`;
   }
+
+  //User Input Check
+  submitBtn.addEventListener("click", () => {
+    errorMessage.classList.add("hide");
+    let userInput = document.getElementById("inputValue").value;
+  });
 };
