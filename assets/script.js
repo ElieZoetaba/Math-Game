@@ -49,7 +49,12 @@ const questionGenerator = () => {
     errorMessage.classList.add("hide");
     let userInput = document.getElementById("inputValue").value;
     //If user input is not empty
-    if (userInput) {}
+    if (userInput) {
+        //If the user guessed correct answer
+      if (userInput == answerValue) {
+        stopGame(`Yippie!! <span>Correct</span> Answer`);
+      }
+    }
     //If user input is empty
     else {
       errorMessage.classList.remove("hide");
