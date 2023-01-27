@@ -58,6 +58,10 @@ const questionGenerator = () => {
         errorMessage.classList.remove("hide");
         errorMessage.innerHTML = "Please enter a valid operator";
       }
+      //If user guessed wrong answer
+      else {
+        stopGame(`Opps!! <span>Wrong</span> Answer`);
+      }
     }
     //If user input is empty
     else {
